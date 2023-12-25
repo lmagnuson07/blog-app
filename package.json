@@ -1,0 +1,41 @@
+{
+  "name": "blog-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "export": "next export"
+  },
+  "dependencies": {
+    "@types/react-syntax-highlighter": "^15.5.11",
+    "gray-matter": "^4.0.3",
+    "mongodb": "^6.3.0",
+    "next": "14.0.4",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-markdown": "^9.0.1",
+    "react-syntax-highlighter": "^15.5.0",
+    "sass": "^1.69.5",
+    "sharp": "^0.33.1",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.4",
+    "typescript": "^5"
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "tabWidth": 2,
+    "semi": true,
+    "singleQuote": true,
+    "quoteProps": "consistent",
+    "experimentalTernaries": true
+  }
+}
